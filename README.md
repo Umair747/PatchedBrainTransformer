@@ -20,7 +20,7 @@ Decoding the human brain using non-invasive methods is a significant challenge. 
 For unsupervised pre-training, run main_pre_training.py with config['pre_train_bert'] =  True. <br>
 For supervised pre-training, run main_pre_training.py with config['pre_train_bert'] =  False. <br>
 To fine-tune the model, run main_fine_tune.py.
-After training you can report the accuracy stored in a checkpoint with:
+After training you can report the accuracy stored in a checkpoint using the evaluation cells in `PatchedBrainTransformer_demo.ipynb` or by running:
 ```bash
 python evaluate_accuracy.py path/to/checkpoint.pt
 ```
